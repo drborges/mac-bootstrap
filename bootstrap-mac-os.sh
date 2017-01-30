@@ -6,6 +6,10 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" || true
 brew tap caskroom/cask || true
 
+#
+# Install utility apps
+#
+brew install ffmpeg || true
 brew install vim || true
 
 #
@@ -38,7 +42,7 @@ gem install bundler
 #
 # Install NodeJS and Global modules
 #
-brew install node
+brew install node || true
 npm install -g prettyjson
 
 #
