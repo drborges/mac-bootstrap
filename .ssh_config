@@ -1,0 +1,9 @@
+Host demo14-web
+  HostName demo14-nitro-webserver
+  User diego.borges
+  IdentityFile ~/.ssh/id_rsa
+
+Host prod-web
+  HostName production-nitro-webserver1.powerhrg.com
+  User diego.borges
+  IdentityFile ~/.ssh/id_rsa

@@ -1,0 +1,3 @@
+#!/bina/bash
+
+ln -s `pwd`/.ssh_config $HOME/.ssh/config
