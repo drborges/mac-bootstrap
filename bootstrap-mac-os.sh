@@ -11,6 +11,8 @@ brew tap caskroom/cask || true
 #
 brew install ffmpeg || true
 brew install vim || true
+brew install mysql || true
+brew install go || true
 
 #
 # Install RVM and Ruby
@@ -23,8 +25,11 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby || true
 #
 brew cask install atom || true
 brew cask install iterm2 || true
+brew cask install virtualbox || true
 brew cask install vagrant || true
+brew cask install querious || true
 
+brew cask install vlc || true
 brew cask install spotify || true
 brew cask install 1password || true
 brew cask install google-chrome || true
@@ -35,7 +40,7 @@ brew cask install google-chrome || true
 sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`" -s ask || true
 
 #
-# Install Gloabl gems
+# Install Global gems
 #
 gem install bundler
 
