@@ -28,9 +28,12 @@ brew cask install atom || true
 brew cask install iterm2 || true
 brew cask install virtualbox || true
 brew cask install vagrant || true
-brew cask install querious || true
+brew cask install gitify || true
+brew cask install mysqlworkbench || true
 
 brew cask install vlc || true
+brew cask install skitch || true
+brew cask install rocket || true
 brew cask install spotify || true
 brew cask install 1password || true
 brew cask install google-chrome || true
