@@ -13,6 +13,7 @@ brew install ffmpeg || true
 brew install vim || true
 brew install mysql || true
 brew install go || true
+brew install elixit || true
 
 #
 # Install RVM and Ruby
